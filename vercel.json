@@ -1,5 +1,3 @@
 {
-  "buildCommand": "cd konfigurator-app && npm install && npm run build",
-  "outputDirectory": "konfigurator-app/dist",
-  "installCommand": "echo skip"
+  "rootDirectory": "konfigurator-app"
 }
