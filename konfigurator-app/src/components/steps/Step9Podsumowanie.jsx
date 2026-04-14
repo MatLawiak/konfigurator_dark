@@ -486,7 +486,7 @@ export default function Step9Podsumowanie({ formData, onChange, onNext, onBack }
                   borderRadius: 8, cursor: 'pointer', textAlign: 'left',
                 }}
               >
-                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, color: 'var(--tp-dark)', fontWeight: 600 }}>
+                <span style={{ fontFamily: 'IBM Plex Sans, sans-serif', fontSize: 13, color: '#fff', fontWeight: 600 }}>
                   Pakiet {p.name}{p.id === pkg.id ? ' (rekomendowany)' : ''}
                 </span>
                 <span style={{ fontSize: 13, color: 'var(--tp-orange)', fontWeight: 700 }}>
