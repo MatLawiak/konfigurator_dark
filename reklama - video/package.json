@@ -1,0 +1,28 @@
+{
+  "name": "twisted-pixel-reklama-video",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx remotion studio",
+    "build": "npx remotion render KonfiguReklama out/reklama.mp4",
+    "voiceover": "npx tsx generate-voiceover.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.290",
+    "@remotion/cli": "4.0.290",
+    "@remotion/google-fonts": "4.0.290",
+    "@remotion/media-utils": "4.0.290",
+    "@remotion/renderer": "4.0.290",
+    "@remotion/transitions": "4.0.290",
+    "mediabunny": "^1.39.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.290"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "docx": "^9.6.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
